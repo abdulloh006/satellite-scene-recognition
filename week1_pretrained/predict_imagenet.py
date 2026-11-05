@@ -1,8 +1,8 @@
 """Week 1: classify an image with ImageNet-pretrained models and compare them.
 
 Usage (from the repo root):
-    python week1_pretrained/predict_imagenet.py --image samples/my_photo.jpg
-    python week1_pretrained/predict_imagenet.py --image samples/tile.jpg --models resnet18 efficientnet_b0 --topk 5
+    python week1_pretrained/predict_imagenet.py --image samples/eurosat_river.png
+    python week1_pretrained/predict_imagenet.py --image samples/eurosat_highway.png --models resnet18 efficientnet_b0 --topk 5
 
 Try both an ordinary photo and a satellite tile. ImageNet has no "farmland seen
 from space" class, so on tiles the predictions are guesses at the nearest

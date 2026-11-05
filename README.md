@@ -38,7 +38,7 @@ week1_pretrained/      environment check, ImageNet model comparison
 week2_handcrafted/     gradients, HOG visualisation, HOG/colour + SVM classifier
 week3_cnn/             CNN from scratch notebook
 week4_transfer/        transfer learning notebook
-samples/               put your own test images here
+samples/               5 real EuroSAT sample tiles + your own test images
 outputs/               figures saved by the scripts
 checkpoints/           model weights saved by the notebooks (git-ignored)
 ```
@@ -57,7 +57,7 @@ In Colab both notebooks run inside the same cloned folder, so the checkpoint is 
 ```bash
 pip install -r requirements.txt
 python week1_pretrained/check_env.py
-python week1_pretrained/predict_imagenet.py --image samples/your_photo.jpg
+python week1_pretrained/predict_imagenet.py --image samples/eurosat_river.png
 python week2_handcrafted/gradients.py
 python week2_handcrafted/hog_visualize.py
 python week2_handcrafted/hog_svm.py --per-class 300
