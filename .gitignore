@@ -1,0 +1,12 @@
+# Dataset (downloaded automatically, ~90 MB)
+data/
+
+# Model weights (regenerate by running the notebooks)
+checkpoints/*.pt
+*.pth
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
